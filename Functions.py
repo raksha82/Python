@@ -17,6 +17,13 @@ def multiply():
 
 def divide():
     print(100/2)
+    print("Hiii");
+
+def add():
+    print("Add");
+
+
+
 
 
 add()
