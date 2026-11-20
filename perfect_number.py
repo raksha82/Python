@@ -1,19 +1,22 @@
 def perfect_no(no) :
-          temp = no // 2
-          num = no
+          if no <= 1:  # if the number is less than or equal to 1 , it returns 0
+             return 0 
+          temp = no // 2  # dividing the number to reduce the unwanted execution of loop
           i=1
           sum=0
           while temp>=i:
-             if num % i == 0 :
-                sum += i
+             if no % i == 0 :
+                sum += i  #if the no is divide by i , then adding the i to sum
              i +=1
-          if sum == no :
-             print("Perfect Number ", no)
-          else:
-             print("Not a Perfect Number ", no)
+          return sum  # return sum of the factors
+          
        
                 
-            
-perfect_no(28)
+no=28      
+result=perfect_no(no)
+if result == no :
+   print(no," is a Perfect Number ")
+else:
+   print(no," is Not a Perfect Number ")
 
     
