@@ -9,8 +9,6 @@ def factorial(no):
     return fact
 
 
-
-
 def strong(no):
     sum=0
 
