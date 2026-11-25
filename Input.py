@@ -5,3 +5,8 @@ print("Hello ",name)
 
 name = input("What is your name ? ")
 print("Welcome" , name)
+
+
+no1 = input("Enter number: ")
+no2 = input("Enter number: ")
+print(int(no1 )+ int(no2))
